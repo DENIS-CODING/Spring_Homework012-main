@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS task (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(500) NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    creation_date TIMESTAMP NOT NULL
+);
